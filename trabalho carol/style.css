@@ -3,17 +3,19 @@
     margin: 0;
 }
 
-header{
+header {
     background-color: #02735E;
 }
-a.nav-link{
+
+a.nav-link {
     color: white;
 }
 
 button {
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: lightgrey;
 }
 
@@ -34,12 +36,13 @@ section {
 }
 
 input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;  
+    -webkit-appearance: none;
 }
 
-label[for="value"]{
+label[for="value"] {
     margin: 0 0 0 10px;
 }
+
 /* header */
 
 .collapse {
@@ -70,8 +73,6 @@ label[for="value"]{
 }
 
 .nav-link
-
-
 /* main */
 
 .mapa {
@@ -79,16 +80,16 @@ label[for="value"]{
     color: #034159;
 }
 
-.col-md-8{
+.col-md-8 {
     padding: 0;
 }
 
-.row{
+.row {
     width: 100%;
     margin: 0;
 }
 
-.touch:hover{
+.touch:hover {
     cursor: pointer;
     background-color: rgb(209, 207, 207)
 }
@@ -111,34 +112,35 @@ label[for="value"]{
     width: 20%;
 }
 
-.card img {
+.card-img {
     padding: 10px;
+    width: 8rem;
 }
 
 .card-body {
     padding: 5px 16px 16px;
 }
 
-.title{
-    padding: 20px 10px ;
+.title {
+    padding: 20px 10px;
 }
-p{
+
+p {
     margin: 0;
 }
+
 .card-text1 {
     margin: 0 5px 0 0;
-    font-size: 1em; 
+    font-size: 1em;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.format{
+
+.format {
     flex-direction: column;
     padding: 10px 0 0 30px;
 }
-
-
-
 
 /* footer */
 
@@ -148,20 +150,29 @@ footer ul {
     padding: 10px 0 0 0;
 
 }
-.futuro{
+
+.futuro {
     width: 70%;
 }
+
 .social-redes li {
     margin: 0 10px 0 0;
 }
-#fonteFooter{
+
+.fonteFooter {
     font-size: 18px;
     color: white;
+    width: 100%;
 }
 
-.footerAlin{
+.futuro p {
+    padding: 0 10px 0 10px;
+}
+
+.footerAlin {
     display: flex;
     flex-direction: column;
+    width: 30%;
 }
 
 @media only screen and (max-width:991px) {
@@ -185,11 +196,12 @@ footer ul {
         margin: 0;
     }
 
-    
+
 }
+
 @media only screen and (max-width:767px) {
-    
-    .limit2{
+
+    .limit2 {
         width: 10rem;
     }
 
