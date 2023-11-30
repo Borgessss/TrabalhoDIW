@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #02735E;
+}
+a.nav-link{
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightgrey;
+}
+
+footer {
+    background-color: #034159;
+    padding: 20px 0 20px 0;
+    display: flex;
+}
+
+main {
+    background-color: #02735E;
+    padding: 50px 0 20px 0;
+}
+
+section {
+    background-color: #025951;
+    padding: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;  
+}
+
+label[for="value"]{
+    margin: 0 0 0 10px;
+}
+/* header */
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.menu-area {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.form-header {
+    display: flex;
+}
+
+.interagivel {
+    display: flex;
+}
+
+.menu-column {
+    width: 50%;
+    align-self: center;
+}
+
+.menu-column p {
+    margin: 0;
+}
+
+.nav-link
+
+
+/* main */
+
+.mapa {
+    text-align: -webkit-center;
+    color: #034159;
+}
+
+.col-md-8{
+    padding: 0;
+}
+
+.row{
+    width: 100%;
+    margin: 0;
+}
+
+.touch:hover{
+    cursor: pointer;
+    background-color: rgb(209, 207, 207)
+}
+
+.card-grid {
+
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.card-header {
+    text-align: center;
+    color: white;
+    background-color: rgba(51, 51, 51);
+}
+
+.card-box {
+    width: 20%;
+}
+
+.card img {
+    padding: 10px;
+}
+
+.card-body {
+    padding: 5px 16px 16px;
+}
+
+.title{
+    padding: 20px 10px ;
+}
+p{
+    margin: 0;
+}
+.card-text1 {
+    margin: 0 5px 0 0;
+    font-size: 1em; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.format{
+    flex-direction: column;
+    padding: 10px 0 0 30px;
+}
+
+
+
+
+/* footer */
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    padding: 10px 0 0 0;
+
+}
+.futuro{
+    width: 70%;
+}
+.social-redes li {
+    margin: 0 10px 0 0;
+}
+#fonteFooter{
+    font-size: 18px;
+    color: white;
+}
+
+.footerAlin{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width:991px) {
+    .menu-area {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .menu-column {
+        align-self: start;
+        width: 100%;
+    }
+
+    .cart-area {
+        width: 100%;
+    }
+
+    .ajuste {
+        padding: 0;
+        margin: 0;
+    }
+
+    
+}
+@media only screen and (max-width:767px) {
+    
+    .limit2{
+        width: 10rem;
+    }
+
+}
